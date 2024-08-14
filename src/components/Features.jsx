@@ -3,7 +3,56 @@ import profile from "../assets/profile1.svg";
 import profile2 from "../assets/profile2.svg";
 import profile3 from "../assets/profile3.svg";
 import ProfileCard from "./ProfileCard";
+import Slideshow from "./SlideShow";
 const Features = () => {
+  const cardData = [
+    {
+      img: profile,
+      title: "Wireless",
+      text: "Enim nec rhoncus volutpat nullam eros sapien pharetra.",
+    },
+    {
+      img: profile,
+      title: "Wireless",
+      text: "Enim nec rhoncus volutpat nullam eros sapien pharetra.",
+    },
+    {
+      img: profile,
+      title: "Wireless",
+      text: "Enim nec rhoncus volutpat nullam eros sapien pharetra.",
+    },
+    {
+      img: profile2,
+      title: "Synergistic",
+      text: "Neque ut integer nulla tellus semper amet id scelerisque eros.",
+    },
+    {
+      img: profile2,
+      title: "Synergistic",
+      text: "Neque ut integer nulla tellus semper amet id scelerisque eros.",
+    },
+    {
+      img: profile2,
+      title: "Synergistic",
+      text: "Neque ut integer nulla tellus semper amet id scelerisque eros.",
+    },
+    {
+      img: profile3,
+      title: "Distributed",
+      text: " Aliquet et cras nam sed mauris laoreet bibendum et.",
+    },
+    {
+      img: profile3,
+      title: "Wireless",
+      text: "Enim nec rhoncus volutpat nullam eros sapien pharetra.",
+    },
+    {
+      img: profile3,
+      title: "Wireless",
+      text: "Enim nec rhoncus volutpat nullam eros sapien pharetra.",
+    },
+  ];
+  const keys = cardData.map((i, index) => index);
   return (
     <div className="w-full h-[763px] flex flex-col items-center py-[100px] gap-[24px]">
       <div className="w-[1216px] h-[184px] flex flex-col items-center gap-[16px]">
@@ -25,6 +74,7 @@ const Features = () => {
           </div>
         </div>
       </div>
+      {<Slideshow key={keys} cardData={cardData}/>}
       <div className="w-[1211px] h-[211px] gap-[32px] grid grid-flow-row grid-cols-3 mt-24">
         <div className="bg-[#F0F5F6] py-[24px] px-[32px] border-[1px] gap-[24px] rounded-[20px] border-[#F7F7F7] shadow-lg hover:shadow-custom-shadow transition-all duration-300">
           <div className="flex justify-between">
