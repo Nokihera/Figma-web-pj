@@ -75,7 +75,7 @@ const Features = () => {
         </div>
       </div>
       {<Slideshow key={keys} cardData={cardData}/>}
-      <div className="w-[1211px] h-[211px] gap-[32px] grid grid-flow-row grid-cols-3 mt-24">
+      {/* <div className="w-[1211px] h-[211px] gap-[32px] grid grid-flow-row grid-cols-3 mt-24">
         <div className="bg-[#F0F5F6] py-[24px] px-[32px] border-[1px] gap-[24px] rounded-[20px] border-[#F7F7F7] shadow-lg hover:shadow-custom-shadow transition-all duration-300">
           <div className="flex justify-between">
             <img src={profile} alt="" />
@@ -125,7 +125,7 @@ const Features = () => {
         <div className="col-span-3 flex justify-center">
             <span className="text-center"><i class="fa-solid fa-ellipsis text-[40px] text-[#7F7D7D]"></i></span>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 };
