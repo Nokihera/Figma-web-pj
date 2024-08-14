@@ -29,7 +29,6 @@ const Hero = () => {
             <button className="bg-[#6596A1] rounded-[8px] py-[8px] px-[20px] text-white border-[1px] w-[148px] h-[46px] flex items-center gap-[6px] font-lato">
               Get Started{" "}
               <i className="fa-solid fa-arrow-right text-[#F8F9FB]"></i>
-              
             </button>
           </div>
         </div>

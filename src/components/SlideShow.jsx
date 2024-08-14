@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Slideshow = ({ cardData, interval = 3000 }) => {
+const Slideshow = ({ cardData, interval = 4000 }) => {
   const length = cardData.length / 3;
   const indicateArr = Array.from({ length }, (_, i) => i + 1);
   const [currentIndex, setCurrentIndex] = useState(0);
