@@ -39,7 +39,7 @@ const Slideshow = ({ cardData, interval = 3000 }) => {
             >
               <div className="flex justify-between">
                 <img src={data.img} alt={`Slide ${currentIndex}`} />
-                <button className="w-[88px] h-[46px] rounded-[8px] border-[1px] py-[8px] px-[18px] border-[#6596A1] text-[#6596A1] text-[14px] font-lato">
+                <button className="w-[95px] h-[46px] rounded-[8px] border-[1px] py-[8px] px-[18px] border-[#6596A1] text-[#6596A1] text-[14px] font-lato text-nowrap">
                   View All
                 </button>
               </div>
