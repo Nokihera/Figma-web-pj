@@ -6,7 +6,6 @@ const MobileNavBtn = ({
   handlerChanger,
   theme,
 }) => {
-  console.log(isActive);
   return (
     <>
       <Link
