@@ -58,10 +58,10 @@ const BlogPost = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center shadow-custom-2 rounded-[20px]">
-            <img src={img3} alt="" className="shadow-none border-none outline-none"/>
-            <div className="w-[384.67px] h-[310px] py-[24px] px-[32px] gap-[24px] flex flex-col bg-[#F0F5F6] rounded-[20px]">
-              <div className="flex gap-[16px] items-center">
+          <div className="flex flex-col justify-center shadow-custom-2 rounded-[20px] relative">
+            <img src={img3} alt="" className="shadow-none border-none outline-none bg-white z-0 relative top-5 "/>
+            <div className="w-[384.67px] h-[310px] py-[24px] px-[32px] gap-[24px] flex flex-col bg-[#F0F5F6] rounded-[20px] z-30">
+              <div className="flex gap-[16px] items-center ">
                 <span className="w-[100px] h-[28px] rounded-[5px] py-[2px] px-[8px] bg-[#6596A1] text-white font-lato text-[14px] flex justify-center ">
                 Development
                 </span>
