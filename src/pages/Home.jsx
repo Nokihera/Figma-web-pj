@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../components/heading";
+import Heading from "../components/Heading";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Talent from "../components/Talent";
@@ -7,6 +7,7 @@ import InovationSection from "../components/InovationSection";
 import BlogPost from "../components/BlogPost";
 import image from "../assets/homeHerophoto.svg";
 import HeroSection from "../components/HeroSection";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   const conents = {

@@ -67,7 +67,7 @@ const Heading = () => {
         </button>
         <button
           onClick={() => handlerOnChange()}
-          className="transition-all duration-300 bg-slate-400 px-2 py-1"
+          className="transition-all duration-300 bg-slate-400 px-3 py-1 rounded-[5px]"
         >
           {isActive ? (
             <svg
