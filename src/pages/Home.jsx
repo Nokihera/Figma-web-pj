@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../components/heading'
+import Heading from '../components/Heading'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Talent from '../components/Talent'
