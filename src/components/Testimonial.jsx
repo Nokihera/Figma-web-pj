@@ -49,7 +49,7 @@ const Testimonial = () => {
       </div>
       <div className="flex flex-col w-[248px] h-[92px] mx-auto gap-[16px]">
           <img src={icon} alt="" className="w-[18px] h-[20px] mx-auto"/>
-          <p className="font-lato text-[18px] text-[#7F7D7D] text-center">Repurpose analytics with the possibility to come up.</p>
+          <p className="font-lato text-[18px] text-[#7F7D7D] text-center ">Repurpose analytics with the possibility to come up.</p>
         </div>
     </div>
   );
