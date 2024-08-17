@@ -1,9 +1,12 @@
 import React from "react";
 import image from "../../assets/blogHerophoto.svg";
+import second from '../../assets/aboutCard3img.svg'
 
 const CardOne = ({ cardData }) => {
+  console.log(cardData)
+  console.log(image)
   return (
-    <div className={`w-[1440px] gap-[64px] flex justify-center items-center ${cardData.isBg && 'bg-[#ccdce0]'}`}>
+    <div className={`w-[1440px] gap-[64px] flex justify-center items-center ${cardData.isBg && 'bg-[#ccdce0]'} rounded-lg`}>
       <div
         className={`w-[1221px] flex ${
           cardData.isImageLeft && "flex-row-reverse"
@@ -29,7 +32,7 @@ const CardOne = ({ cardData }) => {
           )}
         </div>
         <div className="flex justify-center items-center">
-          <img className="size-96" src={image} alt="Blog Image" />
+          <img className="size-96" src={cardData.image} alt="Blog Image" />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import image from "../assets/contactHerophoto.svg";
+// import image from "../assets/contactHerophoto.svg";
 
 const Blog = () => {
   const conents = {
