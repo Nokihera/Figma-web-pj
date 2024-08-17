@@ -7,7 +7,7 @@ import InovationSection from "../components/InovationSection";
 import BlogPost from "../components/BlogPost";
 import image from "../assets/homeHerophoto.svg";
 import HeroSection from "../components/HeroSection";
-import Testimonial from "../components/Testimonial";
+// import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   const conents = {
