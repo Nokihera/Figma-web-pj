@@ -4,7 +4,8 @@ import img2 from "../assets/blogImg.svg";
 import img3 from "../assets/blogImg2.svg";
 const BlogPost = () => {
   return (
-    <div className="w-[1440px] h-[991px] gap-[64px] py-[100px] flex flex-col items-center justify-center content-center justify-items-center">
+    <div className="w-full flex justify-center items-center">
+      <div className="w-[1440px] h-[991px] gap-[64px] py-[100px] flex flex-col items-center justify-center content-center justify-items-center">
       <div className="flex flex-col gap[16px] items-center">
         <h1 className="font-futura text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] rounded-[20px] w-[192px] h-[38px] py-[5px] px-[15px] flex justify-center items-center ">
           Magic Unleashed
@@ -101,6 +102,7 @@ const BlogPost = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
