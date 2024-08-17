@@ -8,6 +8,7 @@ import BlogPost from "../components/BlogPost";
 import image from "../assets/homeHerophoto.svg";
 import HeroSection from "../components/HeroSection";
 import Testimonial from "../components/Testimonial";
+import CallToAction from "../components/CallToAction";
 // import Testimonial from "../components/Testimonial";
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
       <InovationSection />
       <BlogPost />
       <Testimonial/>
+      <CallToAction/>
     </div>
   );
 };
