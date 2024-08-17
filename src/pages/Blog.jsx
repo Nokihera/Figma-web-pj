@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-// import image from "../assets/contactHerophoto.svg";
+import image from "../assets/blogHerophoto.svg";
 
 const Blog = () => {
   const conents = {
@@ -12,9 +12,14 @@ const Blog = () => {
       </>
     ),
     text: "Subscribe to learn about product features, the latest in technology, solutions and updates.",
-    // image: image,
     isSearchBar: true,
-    card:true,
+    card: true,
+    cardData: {
+      title: "How to start a blog in 2024: The ultimate guide ",
+      text: "Discover expect tips, latest trends, and valuable insights in digital design and project management",
+      isBtn: true,
+      image: image,
+    },
   };
   return (
     <div>
