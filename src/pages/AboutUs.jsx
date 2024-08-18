@@ -63,11 +63,11 @@ const AboutUs = () => {
     },
   ];
   return (
-    <div className=" w-full flex flex-col items-center justify-center mx-auto">
+    <div className=" w-full max-w-[1440px] flex flex-col items-center justify-center mx-auto">
       <div className=" w-full flex flex-col items-center justify-center mx-auto">
         <HeroSection conents={conents} />
       </div>
-      <div className=" flex flex-col justify-center items-center gap-8">
+      <div className=" w-full flex flex-col justify-center items-center gap-8">
         <CardOne cardData={cardData[0]} />
         <CardOne cardData={cardData[1]} />
         <CardOne cardData={cardData[2]} />
