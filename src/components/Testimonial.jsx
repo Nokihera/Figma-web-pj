@@ -9,7 +9,7 @@ const Testimonial = () => {
   const currentRating = 4;
   const numbers = [1, 2, 3, 4, 5];
   return (
-    <div className="w-[1218px] h-[100px] mx-auto grid grid-flow-row grid-cols-3 items-center relative content-center mt-5">
+    <div className="w-full h-full md:h-[100px] mx-auto grid grid-flow-row grid-cols-1 md:grid-cols-3 items-center relative content-center mt-5">
       <div className="flex flex-col justify-center items-start gap-[16px] w-[248px] h-[96px] mx-auto ">
         <div className="relative w-[155px] h-[35px] ">
           <img src={smallProfile} alt="" className="absolute left-[40px]" />
@@ -24,7 +24,7 @@ const Testimonial = () => {
           </p>
         </div>
       </div>
-      <div className="w-[248px] h-[100px] gap-[24px] flex flex-col mx-auto">
+      <div className="w-[248px] h-[100px] gap-0 md:gap-[24px] md:mt-0 mt-4 flex flex-col mx-auto">
         <div className="flex justify-center">
           {numbers.map((number) => (
             <svg
@@ -47,7 +47,7 @@ const Testimonial = () => {
           <p className="text-center text-[18px] font-lato text-[#7F7D7D]">5 out of 5 stars from 123 reviews from our users</p>
         </div>
       </div>
-      <div className="flex flex-col w-[248px] h-[92px] mx-auto gap-[16px]">
+      <div className="flex flex-col w-[248px] h-[92px] mx-auto gap-1 md:gap-[16px]">
           <img src={icon} alt="" className="w-[18px] h-[20px] mx-auto"/>
           <p className="font-lato text-[18px] text-[#7F7D7D] text-center ">Repurpose analytics with the possibility to come up.</p>
         </div>

@@ -5,12 +5,12 @@ import img3 from "../assets/blogImg2.svg";
 const BlogPost = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-[1440px] h-[991px] gap-[64px] py-[100px] flex flex-col items-center justify-center content-center justify-items-center">
+      <div className="w-[full] h-full md:h-[991px] gap-[64px] py-[100px] flex flex-col items-center justify-center content-center justify-items-center">
       <div className="flex flex-col gap[16px] items-center">
-        <h1 className="font-futura text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] rounded-[20px] w-[192px] h-[38px] py-[5px] px-[15px] flex justify-center items-center ">
+        <h1 className="font-futura text-[15px] md:text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] rounded-[20px] w-[150px] md:w-[192px] h-[38px] py-[5px] px-[15px] flex justify-center items-center ">
           Magic Unleashed
         </h1>
-        <h1 className="w-[850px] h-[66px] text-[50px] font-futura text-[#223236] text-center font-bold mt-[16px]">
+        <h1 className="w-[850px] h-[66px] text-[25px] md:text-[50px] font-futura text-[#223236] text-center font-bold mt-[16px]">
           <span className="text-[#6596A1]">A New Era </span> of Design
           Excellence
         </h1>
@@ -18,7 +18,7 @@ const BlogPost = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's{" "}
         </p>
-        <div className="w-[1218px] h-[575px] gap-[32px] grid grid-flow-row grid-cols-3 items-center mt-[64px]">
+        <div className="w-[full] h-full md:h-[575px] gap-[32px] grid grid-flow-row grid-cols-1 md:grid-cols-3 items-center mt-[64px]">
           <div className="flex flex-col justify-center shadow-custom-2 rounded-[20px]  ">
             <div>
             <img src={img1} alt="" />
