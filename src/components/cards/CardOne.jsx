@@ -14,16 +14,16 @@ const CardOne = ({ cardData }) => {
           cardData.isImageLeft ? "sm:flex-row-reverse" : ""
         } justify-between gap-10 rounded-lg`}
       >
-        <div className="flex flex-col justify-center gap-5 rounded-lg">
+        <div className="flex flex-col justify-center gap-5 rounded-lg px-4 py-2">
           <div className="w-full max-w-[400px]">
             <h1 className="font-futura text-[24px] sm:text-[31px] text-[#223236] font-bold">
               {cardData.title}
             </h1>
           </div>
           <div className="w-full max-w-[434px]">
-            <p className="font-lato text-[14px] sm:text-[16px] text-[#7F7D7D]">
+            <div className="font-lato text-[14px] sm:text-[16px] text-[#7F7D7D]">
               {cardData.text}
-            </p>
+            </div>
           </div>
           {cardData.isBtn && (
             <div>
