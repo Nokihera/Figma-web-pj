@@ -4,8 +4,8 @@ import socialIcon from '../assets/Socia-icons.svg'
 const Footer = () => {
   return (
     <div className="w-full h-full md:h-[415px] py-[64px] bg-[#F7F7F7] flex justify-center items-center ">
-      <div className="md:w-[1220px] w-[450px] h-full md:h-[284px] flex flex-col gap-[64px] justify-center items-center">
-        <div className="md:flex grid grid-flow-row grid-cols-2 justify-items-center items-center md:justify-between w-[420px] md:w-[1220px] h-full md:gap-0 gap-5 md:h-[168px] px-5">
+      <div className="w-full h-full md:h-[284px] flex flex-col gap-[64px] justify-center items-center">
+        <div className="md:flex grid grid-flow-row grid-cols-2 justify-items-center items-center md:justify-between  w-full h-full md:gap-0 gap-5 md:h-[168px] px-5">
           <div className="flex flex-col md:items-start items-center col-span-2 gap-[16px] w-[247px] h-[168px]">
             <div><img src={LOGO} alt="" /></div>
             <p className="font-lato text-[16px] text-[#7F7D7D] md:text-left text-center">Generate outside the box thinking with the possibility to target the low.</p>

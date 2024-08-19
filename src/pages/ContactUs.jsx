@@ -168,12 +168,12 @@ const ContactUs = () => {
         </div>
       </div>
       <div className=" w-full flex flex-col justify-center items-center my-4">
-        <div className="w-[1216px] h-[184px] flex flex-col items-center gap-[16px]">
+        <div className="w-full h-[184px] flex flex-col items-center gap-[16px]">
           <h1 className="font-futura text-[#6596A1] text-[15px] md:text-[20px] border-[1px] rounded-[20px] border-[#C4C4C4] py-[8px] px-[10px] md:px-[16px] flex items-center justify-center w-[145px] h-[38px] gap-[10px] text-center">
             Our office
           </h1>
 
-          <div className="w-[814px] h-[130px] flex flex-col items-center gap-[16px]">
+          <div className=" w-auto h-[130px] flex flex-col items-center gap-[16px]">
             <div>
               <h1 className="font-futura text-[25px] md:text-[50px] font-bold text-[#223236]">
                 <span className="text-[#6596A1]">Where </span>
