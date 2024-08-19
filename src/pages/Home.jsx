@@ -25,7 +25,7 @@ const Home = () => {
     isButton: true,
   };
   return (
-    <div>
+     <div className=" w-full max-w-[1440px] flex flex-col items-center justify-center mx-auto">
       {/* <Hero /> */}
       <HeroSection conents={conents} />
       <Features />
