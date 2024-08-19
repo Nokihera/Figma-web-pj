@@ -3,15 +3,15 @@ import illustrationGirl from "../assets/illustrationGirl.svg";
 
 const Talent = () => {
   return (
-    <div className="w-full h-[full] md:h-[875px] pt-[100px] gap-[60px] flex flex-col items-center">
-      <div className="w-[1219px] h-[184px] flex flex-col gap-[20px] items-center">
+    <div className="w-full h-full md:h-[875px] pt-[100px] gap-[60px] flex flex-col items-center overflow-hidden">
+      <div className="md:w-[1219px] w-full h-[184px] flex flex-col gap-[20px] items-center">
         <h1 className="font-futura text-[15px] md:text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] text-nowrap rounded-[20px] w-[140px] md:w-[186px] h-[38px] py-[8px] px-[16px] flex items-center">
           Masterful Design
         </h1>
         <h1 className="font-futura text-[25px] md:text-[50px] font-bold text-[#223236]">
           A New Era of <span className="text-[#6596A1]">Design Excellence</span>
         </h1>
-        <div className="w-[478px] h-[48px]">
+        <div className="w-4/5 md:w-[478px] h-[48px]">
           <p className="font-lato text-[16px] text-center text-[#7F7D7D]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's{" "}
