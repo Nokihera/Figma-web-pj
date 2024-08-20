@@ -32,7 +32,7 @@ const BlogPost = () => {
                     2 Apr. 2023
                   </span>
                 </div>
-                <div className="w-full h-[154px] flex flex-col gap-[16px]">
+                <div className="w-full h-[154px] flex flex-col gap-[10px] md:gap-[16px]">
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Organize your digital assets with a methodology.
                   </h1>
@@ -57,7 +57,7 @@ const BlogPost = () => {
                     2 Apr. 2023
                   </span>
                 </div>
-                <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[16px]">
+                <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[10px] md:gap-[16px]">
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Gestalt psychology in UI/UX design and beyond.
                   </h1>
@@ -86,7 +86,7 @@ const BlogPost = () => {
                     2 Apr. 2023
                   </span>
                 </div>
-                <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[16px]">
+                <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[10px] md:gap-[16px]">
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Faster ways to reach your customers and their needs.
                   </h1>
