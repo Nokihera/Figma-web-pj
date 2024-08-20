@@ -33,7 +33,7 @@ const BlogPost = () => {
                   </span>
                 </div>
                 <div className="w-full h-[154px] flex flex-col gap-[16px]">
-                  <h1 className="font-futura text-[25px] text-[#223236]">
+                  <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Organize your digital assets with a methodology.
                   </h1>
                   <p className="font-lato text-[16px] text-[#7F7D7D]">
@@ -58,7 +58,7 @@ const BlogPost = () => {
                   </span>
                 </div>
                 <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[16px]">
-                  <h1 className="font-futura text-[25px] text-[#223236]">
+                  <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Gestalt psychology in UI/UX design and beyond.
                   </h1>
                   <p className="font-lato text-[16px] text-[#7F7D7D]">
@@ -87,7 +87,7 @@ const BlogPost = () => {
                   </span>
                 </div>
                 <div className="w-full md:w-[320px] h-[154px] flex flex-col gap-[16px]">
-                  <h1 className="font-futura text-[25px] text-[#223236]">
+                  <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Faster ways to reach your customers and their needs.
                   </h1>
                   <p className="font-lato text-[16px] text-[#7F7D7D]">
