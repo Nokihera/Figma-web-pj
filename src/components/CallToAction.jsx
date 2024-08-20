@@ -25,9 +25,9 @@ const CallToAction = () => {
         <div className="flex items-center justify-center">
           <input
             type="text"
-            className="rounded-l-[8px] py-[8px] px-[18px] shadow-lg outline-none border-b-[1px] border-t-[1px] border-l-[1px] focus:border-blue-500"
+            className="rounded-l-[8px] py-[8px] px-[18px] shadow-lg outline-none border-b-[1px] border-t-[1px] border-l-[1px] focus:border-blue-500 w-full"
           />
-          <button className="font-lato text-[16px] text-[#E6E9EC] border-[1px] border-[#6596A1] bg-[#6596A1] rounded-r-[8px] py-[8px] px-[18px]">
+          <button className="font-lato text-[14px] md:text-[16px] text-[#E6E9EC] border-[1px] border-[#6596A1] bg-[#6596A1] rounded-r-[8px] md:py-[8px] md:px-[18px] py-[9.5px] px-2">
             Primary
           </button>
         </div>

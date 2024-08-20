@@ -4,7 +4,7 @@ const InovationSection = () => {
   return (
     <div className="w-full h-full md:h-[541px] py-[64px] gap-[64px] flex justify-center items-center content-center">
       <div className="w-full h-full md:h-[413px] grid grid-flow-row grid-cols-1 md:grid-cols-2">
-        <div className="flex flex-col gap-[20px] md:items-start items-center content-center md:content-start">
+        <div className="flex flex-col gap-[20px] md:items-start items-center content-center md:content-start px-16">
           <div className="">
             <h1 className="font-futura text-[15px] md:text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] rounded-[20px] w-[190px] md:w-[230px] h-[32px] py-[5px] px-[15px] flex justify-center items-center ">
               Next-Level Innovation
