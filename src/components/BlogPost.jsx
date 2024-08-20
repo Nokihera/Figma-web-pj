@@ -36,7 +36,7 @@ const BlogPost = () => {
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Organize your digital assets with a methodology.
                   </h1>
-                  <p className="font-lato text-[16px] text-[#7F7D7D]">
+                  <p className="font-lato text-[14px] md:text-[16px] text-[#7F7D7D]">
                     Leverage agile frameworks to provide a robust synopsis for
                     high level overviews. Iterative approaches to corporate.
                   </p>
@@ -61,7 +61,7 @@ const BlogPost = () => {
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Gestalt psychology in UI/UX design and beyond.
                   </h1>
-                  <p className="font-lato text-[16px] text-[#7F7D7D]">
+                  <p className="font-lato text-[14px] md:text-[16px] text-[#7F7D7D]">
                     Bring to the table win-win strategies to proactive
                     domination. At the end of the day, going forward.
                   </p>
@@ -90,7 +90,7 @@ const BlogPost = () => {
                   <h1 className="font-futura text-[20px] md:text-[25px] text-[#223236]">
                     Faster ways to reach your customers and their needs.
                   </h1>
-                  <p className="font-lato text-[16px] text-[#7F7D7D]">
+                  <p className="font-lato text-[14px] md:text-[16px] text-[#7F7D7D]">
                     Capitalize on low hanging fruit to identify a ballpark value
                     added activity to beta test override the digital divide.
                   </p>
