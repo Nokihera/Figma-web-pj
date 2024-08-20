@@ -18,7 +18,7 @@ const BlogPost = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's{" "}
           </p>
-          <div className="w-full h-full lg:h-[575px] gap-[32px] grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center mt-[64px] px-16 md:px-14 lg:px-5">
+          <div className="w-full h-full lg:h-[575px] gap-[32px] grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center mt-[64px] px-5 md:px-14 lg:px-5">
             <div className="flex flex-col justify-center shadow-custom-2 rounded-[20px]  ">
               <div>
                 <img src={img1} alt="" />
