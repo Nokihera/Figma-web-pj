@@ -36,7 +36,7 @@ const InovationSection = () => {
             </div>
             <div className="flex items-center gap-3 md:justify-start justify-center">
               <i class="fa-solid fa-check text-[14px] md:text-[16px] text-[#6596A1]"></i>
-              <span className="font-lato text-[14px] md:text-[16px] text-[#6596A1]">
+              <span className="font-lato text-[14px] md:text-[16px] text-[#6596A1] text-nowrap">
                 Designated customer success team
               </span>
             </div>
