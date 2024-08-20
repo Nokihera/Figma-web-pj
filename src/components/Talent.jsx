@@ -8,7 +8,7 @@ const Talent = () => {
         <h1 className="font-futura text-[15px] md:text-[17px] lg:text-[20px] text-[#6596A1] border-[1px] border-[#C4C4C4] text-nowrap rounded-[20px] w-[140px] md:w-[160px] lg:w-[186px] h-[38px] py-[8px] px-[16px] flex items-center">
           Masterful Design
         </h1>
-        <h1 className="font-futura text-[25px] md:text-[34px] lg:text-[50px] font-bold text-[#223236]">
+        <h1 className="font-futura text-[20px] md:text-[34px] lg:text-[50px] font-bold text-[#223236]">
           A New Era of <span className="text-[#6596A1]">Design Excellence</span>
         </h1>
         <div className="w-4/5 md:w-[478px] h-[48px]">

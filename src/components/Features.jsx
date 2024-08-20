@@ -61,13 +61,13 @@ const Features = () => {
         </p>
         <div className="w-full md:w-[814px] h-[130px] flex flex-col items-center gap-[16px]">
           <div>
-            <h1 className="font-futura text-[25px] md:text-[34px] lg:text-[50px] font-bold text-[#223236]">
+            <h1 className="font-futura text-[20px] md:text-[34px] lg:text-[50px] font-bold text-[#223236]">
               Crafting Seamless{" "}
               <span className="text-[#6596A1]">Experiences</span>
             </h1>
           </div>
           <div className="w-4/5 md:w-[481px] h-[48px]">
-            <p className="text-center text-[16px] font-lato text-[#7F7D7D]">
+            <p className="text-center text-[14px] md:text-[16px] font-lato text-[#7F7D7D]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's{" "}
             </p>
